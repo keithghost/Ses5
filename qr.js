@@ -9,7 +9,7 @@ const {
     useMultiFileAuthState, 
     Browsers, 
     delay 
-} = require("baileys");
+} = require("@fizzxydev/baileys-pro");
 
 function removeFile(FilePath) {
     if (!fs.existsSync(FilePath)) return false;
