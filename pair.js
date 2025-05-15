@@ -12,7 +12,7 @@ const {
     delay,
     makeCacheableSignalKeyStore,
     Browsers
-} = require("@whiskeysockets/baileys");
+} = require("baileys");
 
 // List of audio URLs
 const audioUrls = [
