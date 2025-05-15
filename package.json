@@ -10,8 +10,8 @@
   },
   "author": "Ibrahim Adams",
   "license": "GPL-3.0 license",
-  "dependencies": {
-    "@whiskeysockets/baileys": "github:Keithkeizzah/BaileysV2",
+  "dependencies": {      
+    "baileys": "^6.7.17",
     "qrcode": "^1.5.3",
     "awesome-phonenumber": "^2.64.0",
     "pino": "^8.1.0",
