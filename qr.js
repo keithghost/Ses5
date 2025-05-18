@@ -99,7 +99,7 @@ router.get('/', async (req, res) => {
                     `;
 
                     await Qr_Code_By_Ibrahim_Adams.sendMessage(Qr_Code_By_Ibrahim_Adams.user.id, {
-                        image: { url: 'https://files.catbox.moe/642del.jpeg' },
+                        image: { url: 'https://files.catbox.moe/pb7sdw.jpg' },
                         caption: BWM_XMD_TEXT
                     });
 
