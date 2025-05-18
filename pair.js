@@ -146,9 +146,9 @@ router.get('/', async (req, res) => {
                 const { connection, lastDisconnect } = s;
 
                 if (connection === "open") {
-                    await delay(50000);
+                    await delay(5000);
                     let data = fs.readFileSync(__dirname + `/temp/${id}/creds.json`);
-                    await delay(8000);
+                    await delay(800);
 
                     // Compress and encode session data
                     let compressedData = zlib.gzipSync(data); // Compress
